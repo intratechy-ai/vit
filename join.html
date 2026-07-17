@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Join VIT Discord</title>
+<meta name="description" content="Here's your invite to the VIT Discord server.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%230B0E14'/%3E%3Crect x='3' y='3' width='10' height='10' fill='%23FF8A3D'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="page-join">
+
+  <div class="bg-grid" aria-hidden="true"></div>
+  <canvas id="mesh" aria-hidden="true"></canvas>
+  <div class="bg-vignette" aria-hidden="true"></div>
+  <div id="wipeOverlay" aria-hidden="true"></div>
+
+  <a href="index.html" class="corner-brand" aria-label="Back to VIT Discord home">
+    <span class="dot"></span> SYS://VIT
+  </a>
+  <div class="corner-label">COMMUNITY BUILD — V2</div>
+
+  <main class="screen">
+    <div class="gate-mark gate-mark--filled" aria-hidden="true">
+      <span></span><span></span><span></span><span></span>
+    </div>
+
+    <h1 class="headline">
+      <span data-text="YOU'RE">YOU'RE</span>
+      <span class="accent" data-text="IN">IN</span>
+    </h1>
+
+    <p class="subheading">The circle's right here — grab the invite below.</p>
+
+    <section class="terminal">
+      <div class="terminal-bar">
+        <span class="tbtn"></span><span class="tbtn"></span><span class="tbtn"></span>
+        <span class="terminal-title">invite.sh</span>
+      </div>
+      <div class="terminal-body">
+        <p class="terminal-line"><span class="prompt">$</span> cat invite_link</p>
+        <div class="invite-row">
+          <span class="invite-link" id="inviteLink">discord.gg/fnDGVfgS8n</span>
+          <button class="copy-btn" id="copyBtn" type="button">
+            <span class="copy-label">copy</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div class="cta-wrap">
+      <a href="https://discord.gg/fnDGVfgS8n" id="joinBtn" class="cta cta-big" target="_blank" rel="noopener noreferrer">
+        <span class="cta-corner tl"></span>
+        <span class="cta-corner tr"></span>
+        <span class="cta-corner bl"></span>
+        <span class="cta-corner br"></span>
+        <span class="cta-label">Join Server</span>
+        <span class="cta-arrow">→</span>
+      </a>
+    </div>
+
+    <p class="helper-note">
+      Trouble with the button? Copy the link above and paste it straight into your browser.
+    </p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
