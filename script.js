@@ -3,7 +3,7 @@
    ============================================================ */
 
 /* ---- EDIT THIS ONE LINE WHEN YOU HAVE THE REAL INVITE ---- */
-const DISCORD_INVITE_LINK = "https://discord.gg/t6KAaSTPJk";
+const DISCORD_INVITE_LINK = "https://discord.gg/fnDGVfgS8n";
 /* ------------------------------------------------------------ */
 
 const REDUCED_MOTION = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
